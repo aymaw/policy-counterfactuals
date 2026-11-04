@@ -1,0 +1,14 @@
+{
+  "command": "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=src python -m policylab.experiment --out runs/reference",
+  "date": "2026-11-04",
+  "quick": false,
+  "seconds": 0.2299047503620386,
+  "environment": "environment.json",
+  "metrics_sha256": "fcdd950fd1cee29fd4b9a705e7f6435c8dc7d25780ebd321d6e028c11d33428c",
+  "source_sha256": {
+    "src/policylab/__init__.py": "fb2b77ddf0326425b82c5a303655927272c81f1d210df8e8793a4407ef7fcf24",
+    "src/policylab/core.py": "c555eafdb5795d9b285c4172c9cae0e2a184491729186cb7ef525a5f0f6c1c09",
+    "src/policylab/experiment.py": "cdfed7b802eeba3d4223fcf2a8902dc3349de2c812ab5a6751c1e4aed867cf05",
+    "src/policylab/visual.py": "54ab848a43f003d753a12fd263d15d9c7d8a2452d655fe2b9195cf22f20f122b"
+  }
+}
